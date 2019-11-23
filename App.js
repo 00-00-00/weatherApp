@@ -4,12 +4,14 @@ import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import { HomeScreen } from './src/screens/home/HomeScreen';
 import { About } from './src/screens/about/About';
+import { Counter } from './src/screens/counter/Counter';
 
 
 const AppNavigationStack = createStackNavigator(
   {
     Home: HomeScreen,
-    About: About
+    About: About,
+    Counter: Counter
   },
   {
     initialRouteName: 'Home'
