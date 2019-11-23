@@ -5,13 +5,15 @@ import { createStackNavigator } from 'react-navigation-stack';
 import { HomeScreen } from './src/screens/home/HomeScreen';
 import { About } from './src/screens/about/About';
 import { ApiTest } from './src/screens/apiTest/ApiTest'
+import { Counter } from './src/screens/counter/Counter';
 
 
 const AppNavigationStack = createStackNavigator(
   {
     Home: HomeScreen,
     About: About,
-    ApiTest: ApiTest
+    ApiTest: ApiTest,
+    Counter: Counter
   },
   {
     initialRouteName: 'Home'

@@ -17,6 +17,10 @@ export class HomeScreen extends React.Component {
         <Button 
           title="ApiTest"
           onPress={() => this.props.navigation.navigate('ApiTest')}/>
+          <View style={{flex: 0.2}}/>
+        <Button 
+          title="Counter"
+          onPress={() => this.props.navigation.navigate('Counter')}/>
       </View>
     );
   }
